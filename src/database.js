@@ -1,5 +1,5 @@
 const moongose = require('mongoose');
-moongose.connect('mongodb://heroku_5wlptnxz:24b7t0d8blheqtke3g7u0hfmm9@ds031721.mlab.com:31721/heroku_5wlptnxz', {
+moongose.connect('mongodb://localhost/notes-db-app', {
     useCreateIndex: true,
     useNewUrlParser: true,
     useFindAndModify: false
